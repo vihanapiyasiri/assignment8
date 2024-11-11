@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e0e0e0; /* Replace with the exact sampled color */
+    margin: 0;
 }
 
 p {
@@ -17,7 +18,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #e0e0e0; /* Same as body background */
 }
 
 .card {
@@ -28,7 +29,7 @@ p {
     padding: 8px;
     font-size: 1.1rem;
     font-weight: 550;
-    border-bottom: 2px solid #aaa;
+    /* Border removed */
 }
 
 .image {
@@ -36,5 +37,3 @@ p {
     width: 200px;
     height: 120px;
 }
-
-
