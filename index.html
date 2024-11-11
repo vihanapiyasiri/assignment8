@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment_8</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: wheat;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .logo img {
+            height: 80px;
+            border-radius: 50%;
+        }
+        .header-text p {
+            margin: 0;
+        }
+        /* About Section Styling */
+        .about {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* Case List Styling */
+        .case-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .case-list li {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .case-list li a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            position: relative;
+            width: 400px;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+        /* Individual Case Colors */
+        .case-list li:nth-child(1) a { background-color: #6a1b9a; }
+        .case-list li:nth-child(2) a { background-color: #3949ab; }
+        .case-list li:nth-child(3) a { background-color: #00acc1; }
+       
+        .case-list li a:hover { background-color: #0056b3; }
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        footer h2 {
+            margin-top: 0;
+        }
+        footer a {
+            margin: 0 10px;
+        }
+        footer img {
+            height: 40px;
+            vertical-align: middle;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .case-list li a {
+                width: 100%;
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Case List Section -->
+    <div class="container">
+        <ol class="case-list">
+            <li><a href="/pages/case_1.html"><span class="number">1.</span> Case 1</a></li>
+            <li><a href="/pages/case_2.html"><span class="number">2.</span> Case 2</a></li>
+            <li><a href="/pages/case_3.html"><span class="number">3.</span> Case 3</a></li>
+        
+        </ol>
+    </div>
+</body>
+</html>
